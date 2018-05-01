@@ -75,7 +75,7 @@ function monthOfTheYear(date) {
 }
 // Returns a greetin for the given date
 function	greeting(date) {
-	return "Hello world, today is " + date.getDate() + " " + monthOfTheYear(date) + " " + dayOfTheWeek(date) + " " + date.getFullYear() + ". Time is:" + date.getTime()
+	return "Hello world, today is " + date.getDate() + " " + monthOfTheYear(date) + " " + dayOfTheWeek(date) + " " + date.getFullYear() + ". Time is: " + date.getTime()
 }
 let now1 = new Date();
 
